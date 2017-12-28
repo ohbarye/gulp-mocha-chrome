@@ -19,7 +19,7 @@
   "dependencies": {
     "file-url": "^2.0.2",
     "gulp-util": "^3.0.7",
-    "mocha-chrome": "^0.1.1",
+    "mocha-chrome": "ohbarye/mocha-chrome#merge-options",
     "through2": "^2.0.1"
   },
   "devDependencies": {
