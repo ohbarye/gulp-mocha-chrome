@@ -27,7 +27,7 @@ module.exports = function mochaChrome (options) {
     }
 
     file.mocha = {};
-    opts.url = toURL(file.path);
+    opts.url = opts.url || toURL(file.path);
 
     const runner = new MochaChrome(opts);
 
